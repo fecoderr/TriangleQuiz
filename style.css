@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+* {
+    font-family: 'Pangolin', cursive;
+}
+
+:root{
+    --primary-color: #cac0c0;
+    --focus-color: rgb(241, 248, 227);
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centreContainer {
+    height: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+h1 {
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    border: 1px solid black;
+    text-align: center;
+    padding: 70px 0;
+    width: 100px;
+    height: 30px;
+    background-color: var(--primary-color);
+    box-shadow: 2px 2px 4px black;
+    margin: 4px;
+}
+
+.box:hover{
+    border: 1px solid var(--focus-color);
+    box-shadow: 2px 2px 4px var(--focus-color);
+}
+
+.main1 {
+    margin: auto;
+    text-align: center;
+}
+
+.output {
+    height: 20px;
+    width: 300px;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color:  balck;
+}
+
+.message {
+    margin: 2%;
+}
+
+.hideclass {
+    display: none;
+}
+
+.btn {
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: transparent;
+    box-shadow: 1px 1px 2px var(--focus-color);
+    padding: 0.3rem;
+}
+
+input {
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: transparent;
+    box-shadow: 1px 1px 2px var(--focus-color);
+    padding: 0.3rem;   
+}

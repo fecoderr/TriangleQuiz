@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.flexcontainer{
+    height: 50%;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.main4 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    //text-align: center;
+}
+
+.subBtn {
+    margin-left: 50%;
+}
+
+.output{
+    margin-left: 10%;
+}

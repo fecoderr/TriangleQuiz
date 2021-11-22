@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <section class="flexcontainer">
+        <section class="main4">
+            <button class="backBtn btn"><a href="index.html">Go Back</a></button>
+            <h1>Quiz on triangles</h1>
+            <form class="questionsForm">
+                <div class="questSet">
+                    <p>1)A triangle can have</p>
+                     <input type="radio" required id="opt1" name="ques1" value="one right angle">
+                     <label for="html">one right angle</label><br>
+                     <input type="radio" required id="opt2" name="ques1" value="two right angles">
+                     <label for="opt2">two right angles</label><br>
+                     
+                </div>
+                <div class="questSet">
+                    <p>2)What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                     <input type="radio" required id="opt1" name="ques2" value="obtuse">
+                     <label for="html">obtuse</label><br>
+                     <input type="radio" required id="opt2" name="ques2" value="acute">
+                     <label for="opt2">acute</label><br>
+                     <input type="radio" required id="opt3" name="ques2" value="right angled">
+                     <label for="opt3">right angled</label><br>
+                     
+                </div>
+                <div class="questSet">
+                    <p>3)A scalene triangle has ___ lines of symmetry</p>
+                     <input type="radio" required id="opt1" name="ques3" value="two">
+                     <label for="html">two</label><br>
+                     <input type="radio" required id="opt2" name="ques3" value="no">
+                     <label for="opt2">no</label><br>
+                     <input type="radio" required id="opt3" name="ques3" value="15">
+                     <label for="opt3">15</label><br>
+                     
+                </div>
+                
+                <div class="questSet">
+                    <p>5)Which of the following triangles are always similar?</p>
+                     <input type="radio" required id="opt1" name="ques4" value="Equilateral triangle">
+                     <label for="html">Equilateral triangle</label><br>
+                     <input type="radio" required id="opt2" name="ques4" value="Isosceles triangle">
+                     <label for="opt2">Isosceles triangle</label>
+                </div><br>
+                <button class="subBtn btn">Submit</button>
+            </form>
+            <h2 class="output"></h2>
+        </section>
+    </section>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
